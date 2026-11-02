@@ -1,183 +1,78 @@
 {
- "actualizado": "2026-09-29",
+ "actualizado": "2026-11-02",
  "aviso": "Promociones cargadas a mano a partir de notas de prensa públicas (no son datos oficiales del banco ni del supermercado). Los topes son por persona y se acumulan en la semana o el mes: acá se calcula como si no hubieras usado nada. Confirmá las condiciones en la app o la web de tu banco antes de comprar.",
  "promos": [
   {
-   "id": "mercado-pago-carrefour",
+   "id": "mercado-pago-carrefour-jueves",
    "medio": "Mercado Pago",
    "cadena": "carrefour",
-   "dias": [1],
+   "dias": [4],
    "pct": 15,
-   "tope": 15000,
-   "topePeriodo": "mes",
-   "minimo": 0,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "QR",
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 20000,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR (dinero en cuenta), en sucursal",
    "fuentes": [
-    "https://www.mdzol.com/tendencias/descuentos-supermercados-septiembre-2026-35-las-mejores-promociones-n1603812",
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
-  },
-  {
-   "id": "banco-galicia-jumbo",
-   "medio": "Banco Galicia",
-   "cadena": "jumbo",
-   "dias": [2,4],
-   "pct": 20,
-   "tope": 25000,
-   "topePeriodo": "mes",
-   "minimo": 100000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "Tarjeta o QR",
-   "fuentes": [
-    "https://www.mdzol.com/tendencias/descuentos-supermercados-septiembre-2026-35-las-mejores-promociones-n1603812",
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
-  },
-  {
-   "id": "banco-macro-jumbo",
-   "medio": "Banco Macro",
-   "cadena": "jumbo",
-   "dias": [2,4],
-   "pct": 20,
-   "tope": 25000,
-   "topePeriodo": "mes",
-   "minimo": 0,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "Tarjeta",
-   "fuentes": [
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
+    "https://calcularsueldo.com.ar/finanzas/16359/supermercados-mercado-pago-la-guia-completa-de-descuentos-y-cuotas-por-dia.html",
+    "https://www.convi.ar/promos-bancarias/mercado-pago",
+    "https://www.cuidaelmango.com/promociones/carrefour/mercado-pago"
    ],
-   "nota": "Una nota indica compra mínima de $100.000."
+   "nota": "La compra mínima de $20.000 figura en una sola de las tres fuentes."
   },
   {
-   "id": "santander-jumbo",
-   "medio": "Santander",
-   "cadena": "jumbo",
-   "dias": [2,4],
-   "pct": 20,
-   "tope": 25000,
-   "topePeriodo": "mes",
-   "minimo": 100000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "Tarjeta",
+   "id": "mercado-pago-carrefour-viernes",
+   "medio": "Mercado Pago",
+   "cadena": "carrefour",
+   "dias": [5],
+   "pct": 10,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR (dinero en cuenta), en sucursal",
    "fuentes": [
-    "https://www.mdzol.com/tendencias/descuentos-supermercados-septiembre-2026-35-las-mejores-promociones-n1603812",
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
+    "https://calcularsueldo.com.ar/finanzas/16359/supermercados-mercado-pago-la-guia-completa-de-descuentos-y-cuotas-por-dia.html",
+    "https://www.convi.ar/promos-bancarias/mercado-pago",
+    "https://www.cuidaelmango.com/promociones/carrefour/mercado-pago"
+   ],
+   "nota": "Una nota la limita a Carrefour Maxi."
+  },
+  {
+   "id": "mercado-pago-coto-viernes",
+   "medio": "Mercado Pago",
+   "cadena": "coto",
+   "dias": [5],
+   "pct": 25,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR, en sucursal",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16359/supermercados-mercado-pago-la-guia-completa-de-descuentos-y-cuotas-por-dia.html",
+    "https://www.convi.ar/promos-bancarias/mercado-pago"
    ]
   },
   {
-   "id": "modo-jumbo",
-   "medio": "MODO",
-   "cadena": "jumbo",
-   "dias": [2,4],
+   "id": "mercado-pago-coto-finde",
+   "medio": "Mercado Pago",
+   "cadena": "coto",
+   "dias": [6,0],
    "pct": 20,
-   "tope": 25000,
-   "topePeriodo": "mes",
-   "minimo": 100000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
    "via": "QR",
    "fuentes": [
-    "https://www.mdzol.com/tendencias/descuentos-supermercados-septiembre-2026-35-las-mejores-promociones-n1603812",
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
-  },
-  {
-   "id": "naranja-x-jumbo",
-   "medio": "Naranja X",
-   "cadena": "jumbo",
-   "dias": [5,6,0],
-   "pct": 30,
-   "tope": 12000,
-   "topePeriodo": "semana",
-   "minimo": 0,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "Plan Épico (suscripción de Naranja X)",
-   "fuentes": [
-    "https://www.mdzol.com/tendencias/descuentos-supermercados-septiembre-2026-35-las-mejores-promociones-n1603812",
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
-  },
-  {
-   "id": "banco-galicia-changomas",
-   "medio": "Banco Galicia",
-   "cadena": "changomas",
-   "dias": [1],
-   "pct": 20,
-   "tope": 25000,
-   "topePeriodo": "mes",
-   "minimo": 75000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "QR",
-   "fuentes": [
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/",
-    "https://calcularsueldo.com.ar/finanzas/15814/supermercados-la-lista-completa-de-descuentos-del-banco-nacion-para-ahorrar-en-septiembre-2026.html"
-   ]
-  },
-  {
-   "id": "banco-macro-changomas",
-   "medio": "Banco Macro",
-   "cadena": "changomas",
-   "dias": [1],
-   "pct": 20,
-   "tope": 25000,
-   "topePeriodo": "mes",
-   "minimo": 0,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "Tarjeta",
-   "fuentes": [
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
-  },
-  {
-   "id": "santander-changomas",
-   "medio": "Santander",
-   "cadena": "changomas",
-   "dias": [1],
-   "pct": 20,
-   "tope": 25000,
-   "topePeriodo": "mes",
-   "minimo": 75000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "Tarjeta",
-   "fuentes": [
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
-  },
-  {
-   "id": "modo-changomas",
-   "medio": "MODO",
-   "cadena": "changomas",
-   "dias": [1],
-   "pct": 20,
-   "tope": 25000,
-   "topePeriodo": "mes",
-   "minimo": 0,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "QR",
-   "fuentes": [
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
+    "https://calcularsueldo.com.ar/finanzas/16359/supermercados-mercado-pago-la-guia-completa-de-descuentos-y-cuotas-por-dia.html"
+   ],
+   "nota": "Aparece en una sola nota: confirmalo con el banco. La nota no informa tope."
   },
   {
    "id": "mercado-pago-changomas",
@@ -188,101 +83,137 @@
    "tope": null,
    "topePeriodo": null,
    "minimo": 0,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "QR",
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR, en sucursal y online",
    "fuentes": [
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
+    "https://calcularsueldo.com.ar/finanzas/16359/supermercados-mercado-pago-la-guia-completa-de-descuentos-y-cuotas-por-dia.html",
+    "https://www.convi.ar/promos-bancarias/mercado-pago"
+   ],
+   "nota": "Aparece en una sola nota: confirmalo con el banco. La otra fuente solo la menciona para MasOnline."
   },
   {
-   "id": "banco-galicia-dia",
-   "medio": "Banco Galicia",
+   "id": "mercado-pago-vea",
+   "medio": "Mercado Pago",
+   "cadena": "vea",
+   "dias": [1],
+   "pct": 20,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16359/supermercados-mercado-pago-la-guia-completa-de-descuentos-y-cuotas-por-dia.html"
+   ],
+   "nota": "Aparece en una sola nota: confirmalo con el banco. La nota no informa tope."
+  },
+  {
+   "id": "mercado-pago-laanonima",
+   "medio": "Mercado Pago",
+   "cadena": "laanonima",
+   "dias": [1],
+   "pct": 15,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16359/supermercados-mercado-pago-la-guia-completa-de-descuentos-y-cuotas-por-dia.html"
+   ],
+   "nota": "Aparece en una sola nota: confirmalo con el banco. La nota no informa tope."
+  },
+  {
+   "id": "mercado-pago-toledo",
+   "medio": "Mercado Pago",
+   "cadena": "toledo",
+   "dias": [2,6,0],
+   "pct": 15,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16359/supermercados-mercado-pago-la-guia-completa-de-descuentos-y-cuotas-por-dia.html"
+   ],
+   "nota": "Aparece en una sola nota: confirmalo con el banco. La nota no informa tope."
+  },
+  {
+   "id": "modo-coto",
+   "medio": "MODO",
+   "cadena": "coto",
+   "dias": [2],
+   "pct": 25,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR de MODO con tarjeta de un banco adherido (BNA+, Santander, BBVA, Galicia, Macro, Ciudad y otros)",
+   "fuentes": [
+    "https://www.losandes.com.ar/economia/reintegro-coto-como-recuperar-25000-cada-100000-compra-n6012660",
+    "https://www.0221.com.ar/promociones-y-descuentos/banco-nacion-renueva-sus-descuentos-noviembre-que-dias-conviene-comprar-y-como-aprovecharlos-n136776"
+   ],
+   "nota": "Solo sobre productos participantes; no vale con American Express ni pago por NFC."
+  },
+  {
+   "id": "modo-dia",
+   "medio": "MODO",
    "cadena": "dia",
    "dias": [5,6],
    "pct": 20,
    "tope": 20000,
    "topePeriodo": "mes",
    "minimo": 35000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "Tarjeta o QR",
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR de MODO con tarjeta de un banco adherido",
    "fuentes": [
-    "https://www.mdzol.com/tendencias/descuentos-supermercados-septiembre-2026-35-las-mejores-promociones-n1603812",
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
+    "https://calcularsueldo.com.ar/finanzas/16411/promos-dia-noviembre-2026.html",
+    "https://www.0221.com.ar/promociones-y-descuentos/banco-nacion-renueva-sus-descuentos-noviembre-que-dias-conviene-comprar-y-como-aprovecharlos-n136776"
+   ],
+   "nota": "El tope es por banco."
   },
   {
-   "id": "naranja-x-dia",
-   "medio": "Naranja X",
-   "cadena": "dia",
-   "dias": [2],
-   "pct": 30,
-   "tope": 12000,
-   "topePeriodo": "semana",
-   "minimo": 0,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "Plan Épico (suscripción de Naranja X)",
-   "fuentes": [
-    "https://www.mdzol.com/tendencias/descuentos-supermercados-septiembre-2026-35-las-mejores-promociones-n1603812",
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
-  },
-  {
-   "id": "mercado-pago-dia",
-   "medio": "Mercado Pago",
-   "cadena": "dia",
-   "dias": [3],
-   "pct": 15,
-   "tope": null,
-   "topePeriodo": null,
-   "minimo": 20000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "QR",
-   "fuentes": [
-    "https://www.mdzol.com/tendencias/descuentos-supermercados-septiembre-2026-35-las-mejores-promociones-n1603812",
-    "https://www.iprofesional.com/economia/464185-como-conseguir-descuentos-de-hasta-35-por-ciento-en-supermercados-durante-septiembre",
-    "https://www.infozona.com.ar/ahorra-hasta-35-en-el-super-el-mapa-completo-de-descuentos-y-reintegros-para-septiembre-de-2026/"
-   ]
-  },
-  {
-   "id": "banco-nacion-coto",
+   "id": "banco-nacion-dia",
    "medio": "Banco Nación",
-   "cadena": "coto",
-   "dias": [2],
-   "pct": 20,
-   "tope": null,
-   "topePeriodo": null,
-   "minimo": 0,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
+   "cadena": "dia",
+   "dias": [5,6],
+   "pct": 10,
+   "tope": 7500,
+   "topePeriodo": "mes",
+   "minimo": 35000,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
    "via": "BNA+ (MODO), QR",
    "fuentes": [
-    "https://calcularsueldo.com.ar/finanzas/15814/supermercados-la-lista-completa-de-descuentos-del-banco-nacion-para-ahorrar-en-septiembre-2026.html"
+    "https://calcularsueldo.com.ar/finanzas/16411/promos-dia-noviembre-2026.html",
+    "https://www.0221.com.ar/promociones-y-descuentos/banco-nacion-renueva-sus-descuentos-noviembre-que-dias-conviene-comprar-y-como-aprovecharlos-n136776",
+    "https://www.diariomendoza.com.ar/sociedad/banco-nacion-descuentos-reintegros-disponibles-noviembre-n184041"
    ],
-   "nota": "Aparece en una sola nota: confirmalo con el banco."
+   "nota": "Es un 10% extra que se suma al 20% de MODO. Una nota la limita a Mastercard del Banco Nación."
   },
   {
-   "id": "banco-nacion-laanonima",
+   "id": "banco-nacion-changomas",
    "medio": "Banco Nación",
-   "cadena": "laanonima",
-   "dias": [5,6],
-   "pct": 20,
-   "tope": 15000,
+   "cadena": "changomas",
+   "dias": [1],
+   "pct": 10,
+   "tope": 7500,
    "topePeriodo": "mes",
-   "minimo": 50000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
-   "via": "BNA+ (MODO)",
+   "minimo": 75000,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "BNA+ (MODO), QR con Mastercard del Banco Nación",
    "fuentes": [
-    "https://calcularsueldo.com.ar/finanzas/15814/supermercados-la-lista-completa-de-descuentos-del-banco-nacion-para-ahorrar-en-septiembre-2026.html"
-   ],
-   "nota": "Aparece en una sola nota: confirmalo con el banco."
+    "https://www.0221.com.ar/promociones-y-descuentos/banco-nacion-renueva-sus-descuentos-noviembre-que-dias-conviene-comprar-y-como-aprovecharlos-n136776",
+    "https://www.diariomendoza.com.ar/sociedad/banco-nacion-descuentos-reintegros-disponibles-noviembre-n184041"
+   ]
   },
   {
    "id": "banco-nacion-vea",
@@ -293,13 +224,13 @@
    "tope": 25000,
    "topePeriodo": "mes",
    "minimo": 100000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
    "via": "BNA+ (MODO)",
    "fuentes": [
-    "https://calcularsueldo.com.ar/finanzas/15814/supermercados-la-lista-completa-de-descuentos-del-banco-nacion-para-ahorrar-en-septiembre-2026.html"
+    "https://www.0221.com.ar/promociones-y-descuentos/banco-nacion-renueva-sus-descuentos-noviembre-que-dias-conviene-comprar-y-como-aprovecharlos-n136776"
    ],
-   "nota": "Aparece en una sola nota: confirmalo con el banco. Otra nota suma sábado y domingo."
+   "nota": "Aparece en una sola nota: confirmalo con el banco."
   },
   {
    "id": "banco-nacion-disco",
@@ -310,13 +241,120 @@
    "tope": 25000,
    "topePeriodo": "mes",
    "minimo": 100000,
-   "desde": "2026-09-01",
-   "hasta": "2026-09-30",
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
    "via": "BNA+ (MODO)",
    "fuentes": [
-    "https://calcularsueldo.com.ar/finanzas/15814/supermercados-la-lista-completa-de-descuentos-del-banco-nacion-para-ahorrar-en-septiembre-2026.html"
+    "https://www.0221.com.ar/promociones-y-descuentos/banco-nacion-renueva-sus-descuentos-noviembre-que-dias-conviene-comprar-y-como-aprovecharlos-n136776"
    ],
-   "nota": "Aparece en una sola nota: confirmalo con el banco. Otra nota suma sábado y domingo."
+   "nota": "Aparece en una sola nota: confirmalo con el banco. La nota suma también el sábado."
+  },
+  {
+   "id": "cuenta-dni-dia",
+   "medio": "Cuenta DNI",
+   "cadena": "dia",
+   "dias": [1],
+   "pct": 10,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "Dinero en cuenta, en sucursal",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16379/supermercados-cuenta-dni-noviembre-2026.html",
+    "https://calcularsueldo.com.ar/finanzas/16411/promos-dia-noviembre-2026.html",
+    "https://2urbanos.com/nota/50485/cuenta-dni-noviembre-2026-todos-los-descuentos-en-carnicerias-supermercados-ferias-y-veterinarias/"
+   ],
+   "nota": "Cuenta DNI es del Banco Provincia: rige en sucursales de la provincia de Buenos Aires. Pagando con crédito Visa por NFC desde la app es 20%."
+  },
+  {
+   "id": "cuenta-dni-carrefour",
+   "medio": "Cuenta DNI",
+   "cadena": "carrefour",
+   "dias": [3],
+   "pct": 10,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 15000,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "Dinero en cuenta",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16379/supermercados-cuenta-dni-noviembre-2026.html",
+    "https://2urbanos.com/nota/50485/cuenta-dni-noviembre-2026-todos-los-descuentos-en-carnicerias-supermercados-ferias-y-veterinarias/"
+   ],
+   "nota": "Cuenta DNI es del Banco Provincia: rige en sucursales de la provincia de Buenos Aires."
+  },
+  {
+   "id": "cuenta-dni-changomas",
+   "medio": "Cuenta DNI",
+   "cadena": "changomas",
+   "dias": [4],
+   "pct": 20,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "Dinero en cuenta o crédito Visa por NFC desde la app",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16379/supermercados-cuenta-dni-noviembre-2026.html",
+    "https://2urbanos.com/nota/50485/cuenta-dni-noviembre-2026-todos-los-descuentos-en-carnicerias-supermercados-ferias-y-veterinarias/"
+   ],
+   "nota": "Cuenta DNI es del Banco Provincia: rige en sucursales de la provincia de Buenos Aires."
+  },
+  {
+   "id": "cuenta-dni-laanonima",
+   "medio": "Cuenta DNI",
+   "cadena": "laanonima",
+   "dias": [3],
+   "pct": 10,
+   "tope": 5000,
+   "topePeriodo": "semana",
+   "minimo": 25000,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "Dinero en cuenta",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16379/supermercados-cuenta-dni-noviembre-2026.html",
+    "https://2urbanos.com/nota/50485/cuenta-dni-noviembre-2026-todos-los-descuentos-en-carnicerias-supermercados-ferias-y-veterinarias/"
+   ],
+   "nota": "Cuenta DNI es del Banco Provincia: rige en sucursales de la provincia de Buenos Aires."
+  },
+  {
+   "id": "naranja-x-dia",
+   "medio": "Naranja X",
+   "cadena": "dia",
+   "dias": [2],
+   "pct": 30,
+   "tope": 12000,
+   "topePeriodo": "semana",
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "Plan Épico (suscripción de Naranja X)",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16411/promos-dia-noviembre-2026.html"
+   ],
+   "nota": "Aparece en una sola nota: confirmalo con el banco. Con el plan Turbo es 25% (tope $9.500 por semana) y con el inicial 20% (tope $3.000)."
+  },
+  {
+   "id": "banco-galicia-laanonima",
+   "medio": "Banco Galicia",
+   "cadena": "laanonima",
+   "dias": [5,6],
+   "pct": 20,
+   "tope": null,
+   "topePeriodo": null,
+   "minimo": 0,
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "via": "QR con Visa o Mastercard",
+   "fuentes": [
+    "https://calcularsueldo.com.ar/finanzas/16396/descuentos-supermercados-galicia-noviembre-2026.html"
+   ],
+   "nota": "Aparece en una sola nota: confirmalo con el banco. La nota no informa tope ni compra mínima."
   }
  ]
 }
